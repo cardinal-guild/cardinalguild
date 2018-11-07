@@ -8,4 +8,4 @@ Welcome to our new domain.  Heavy work is currently done on the interactive map 
 
 Soon more ...
 
-![Image](logo.png)
+![image]({{ site.url }}/assets/logo.png)
