@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-Welcome to our new domain.  Heavy work is currently done on the interactive map and giving people a way to plan events better with the interactive map.
+Welcome to our new domain.  Heavy work is currently done on the interactive map and giving people a way to plan events better with it.
 
 Soon more ...
 
