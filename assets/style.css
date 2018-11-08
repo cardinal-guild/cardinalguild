@@ -1,0 +1,51 @@
+.site-header, .site-footer {
+    background: #4f4141;
+    border: none;
+    border-top: 5px rgb(224,176,132) solid;
+    border-bottom: 5px rgb(224,176,132) solid;
+}
+
+.site-header .site-logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.site-header .site-title,
+.site-footer .footer-heading {
+    color: #ffe5c4;
+    width: 60%;
+}
+
+.site-header .site-nav a {
+    color: #291a08;
+    padding: 0.35em 0.7em 0.5em 0.7em;
+    background: linear-gradient(to bottom right,#CA8D60,#D8A474,#CA8D60);
+    border-radius: 3px;
+    line-height: 0.8em;
+}
+
+.site-header .site-nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.site-header .site-nav a:hover {
+    text-decoration: none;
+    color: #904328;
+}
+
+.site-header .site-nav a:active,
+.site-header .site-nav a:focus {
+    color: #904328;
+    box-shadow: inset 0 0 1px 1px #904328;
+}
+
+.page-content {
+    background-color: #c0aca8;
+}
+
+
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}

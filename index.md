@@ -4,8 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-Welcome to our new domain.  Heavy work is currently done on the interactive map and giving people a way to plan events better with it.
+Welcome to the Cardinal Guild! We are currently working on our interactive map for the second phase of [Worlds Adrift][WorldsAdriftSteam].
+![Cardinal logo](https://cdn.discordapp.com/attachments/479695163908685835/510234463771557888/Cardinal_logo.png){: .center-image }
 
-Soon more ...
-
-![image]({{ site.url }}/assets/logo.png)
+[WorldsAdriftSteam]: https://store.steampowered.com/app/322780/Worlds_Adrift/
