@@ -17,10 +17,9 @@ title: Cardinal Guild
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Main site for the Cardinal Guild, a world-mapping group for Worlds Adrift.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://cardinalguild.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  fearlessjake
 
 # Build settings
 markdown: kramdown
@@ -40,5 +39,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+discord: https://discordapp.com/invite/BVwKDwy
 
 include: ['_redirects', '_pages']
