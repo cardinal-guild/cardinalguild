@@ -42,4 +42,6 @@ plugins:
 
 discord: https://discordapp.com/invite/BVwKDwy
 
+# header_pages: ['about.md', 'discord.md', 'instructions.md', 'surveyor.md', 'map.md']
+
 include: ['_redirects', '_pages']

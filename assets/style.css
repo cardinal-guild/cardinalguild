@@ -13,7 +13,11 @@
 .site-header .site-title,
 .site-footer .footer-heading {
     color: #ffe5c4;
-    width: 35%;
+}
+
+.site-header .site-title {
+    position: absolute;
+    top: -5px;
 }
 
 .site-header .site-nav a {
@@ -24,7 +28,7 @@
     line-height: 0.8em;
 }
 
-.site-header .site-nav a:not(:last-child) {
+.site-header .site-nav a:not(:last-child):not(.page-link) {
     margin-right: 10px;
 }
 
@@ -57,4 +61,59 @@
 .center-image {
     margin: 0 auto;
     display: block;
+}
+
+
+/* handles menus per screen size */
+@media screen and (max-width: 750px) {
+    .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background: #904328;
+        border: 1px #291a08 solid;
+        box-shadow: #291a08 0 0 10px 1px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .site-nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .site-nav .menu-icon > svg {
+        fill: #ffe5c4;
+    }
+    .site-nav input ~ .trigger {
+        clear: both;
+        display: none;
+    }
+    .site-nav input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 3px;
+    }
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin: 0 4px;
+    }
+
+    .site-nav .page-link:not(:first-child) {
+        margin-top: 3px;
+    }
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 4px;
+    }
 }
