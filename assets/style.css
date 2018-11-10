@@ -6,8 +6,10 @@
 }
 
 .site-header .site-logo {
-    float: left;
-    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    max-width: initial;
 }
 
 .site-header .site-title,
@@ -115,5 +117,11 @@
     }
     .site-nav .page-link:not(:last-child) {
         margin-right: 4px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .site-header .site-logo {
+        left: 0;
     }
 }
