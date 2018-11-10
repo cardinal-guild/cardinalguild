@@ -13,7 +13,7 @@
 .site-header .site-title,
 .site-footer .footer-heading {
     color: #ffe5c4;
-    width: 55%;
+    width: 35%;
 }
 
 .site-header .site-nav a {
@@ -43,8 +43,17 @@
     background-color: #c0aca8;
 }
 
+.page-content ol.nested > li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.page-content ol.nested ol {
+    margin-bottom: 0;
+}
 
 
+
+/* classes for centering images */
 .center-image {
     margin: 0 auto;
     display: block;
