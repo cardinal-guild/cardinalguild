@@ -61,7 +61,7 @@ a:visited {
 }
 
 a:hover {
-    color: #111;
+    color: #ffe5c4;
     text-decoration: underline
 }
 
@@ -679,7 +679,8 @@ table td {
 }
 
 .site-header .site-nav a {
-    color: #291a08;
+    color: #4f4141;
+    font-weight: bold;
     padding: 0.35em 0.7em 0.5em 0.7em;
     background: rgb(224,176,132);
     border-radius: 3px;
@@ -692,7 +693,7 @@ table td {
 
 .site-header .site-nav a:hover {
     text-decoration: none;
-    color: #904328;
+    background-color: #ffe5c4;
 }
 
 .site-header .site-nav a:active,
