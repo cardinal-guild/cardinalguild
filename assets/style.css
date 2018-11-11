@@ -165,8 +165,9 @@ table td {
 .site-header {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
-    height: 50px;
+    min-height: 50px;
     position: relative;
+    
 }
 
 .site-title {
