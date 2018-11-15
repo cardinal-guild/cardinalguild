@@ -10,7 +10,7 @@ Right now everything is very much under construction, but as of now the very bas
 That's all for now, but hopefully we'll get things sorted out as soon as possible!
 
 All the best,
-![brand](https://cdn.discordapp.com/attachments/508462804702068746/510642396426534913/CG_Title_White.png =256x)
+<img src="https://cdn.discordapp.com/attachments/508462804702068746/510642396426534913/CG_Title_White.png" width="34%">
 
 [web-map]: https://map.cardinalguild.com
 [surveyors-link]: https://surveyor.cardinalguild.com
