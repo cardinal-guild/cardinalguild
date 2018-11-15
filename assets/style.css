@@ -122,6 +122,10 @@ pre>code {
     clear: both
 }
 
+.page-content .wrapper {
+    width:75vw;
+}
+
 .svg-icon {
     width: 16px;
     height: 16px;
@@ -256,6 +260,10 @@ table td {
 
     .site-nav .page-link:not(:last-child) {
         margin-right: 0
+    }
+    .page-content .wrapper{
+        padding:0px;
+        width: 85vw;
     }
 }
 
