@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "A New Site!"
+date:   2018-11-15 01:27:00 +0000
+categories: News
+---
+Hello evryone, and welcome to the all-new website for the Cardinal Guild!
+Right now everything is very much under construction, but as of now the very basics are up and running, such as the [map][web-map] and [surveying database][surveyors-link], so if you'd like to contribute to the efforts, feel free to do so! If you want to keep in touch with us make sure to join the [Discord Server](https://discord.gg/ezjfcY4) for all the latest developments.
+
+That's all for now, but hopefully we'll get things sorted out as soon as possible!
+
+All the best,
+![brand](https://cdn.discordapp.com/attachments/508462804702068746/510642396426534913/CG_Title_White.png =256x)
+
+[web-map]: https://map.cardinalguild.com
+[surveyors-link]: https://surveyor.cardinalguild.com
